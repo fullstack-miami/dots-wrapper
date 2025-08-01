@@ -1,8 +1,15 @@
 import { IDatabaseClusterMongoUserSettings } from "./database-cluster-mongo-user-settings";
 
 export interface IDatabaseClusterUserSettings {
-  pg_allow_replication: boolean;
-  opensearch_acl: object[]
-  acl: object[]
-  mongo_user_settings: IDatabaseClusterMongoUserSettings
+  pg_allow_replication?: boolean
+  mongo_user_settings?: IDatabaseClusterMongoUserSettings;
+  opensearch_acl?: {
+    index: string
+    permission: string
+  }[]
+  acl?: {
+    id: string
+    topic: string
+    permission: string
+  }[]
 }
