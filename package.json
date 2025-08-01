@@ -14,7 +14,7 @@
     "install_latest_dev": "npm install --force --save-dev @babel/core@latest @babel/preset-env@latest @babel/preset-typescript@latest @types/jest@latest @types/node@latest babel-jest@latest jest@latest license-webpack-plugin@latest ts-jest@latest typescript@latest webpack@latest webpack-cli@latest",
     "install_latest": "npm install --save axios@latest",
     "test": "export TEST_TOKEN=bearer-token && jest",
-    "publish": "npm publish",
+    "release": "npm run build && changelogen --release && npm publish && git push --follow-tags",
     "version": "npm version --no-git-tag-version "
   },
   "repository": {
@@ -40,6 +40,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^24.1.0",
     "babel-jest": "^30.0.5",
+    "changelogen": "^0.6.0",
     "jest": "^30.0.5",
     "license-webpack-plugin": "^4.0.2",
     "ts-jest": "^29.4.0",
