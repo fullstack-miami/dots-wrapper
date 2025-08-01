@@ -23,7 +23,7 @@ export const updateDatabaseClusterUser = ({
   settings,
   user_name,
 }: IUpdateDatabaseClusterUserApiRequest): Promise<Readonly<UpdateDatabaseClusterUserResponse>> => {
-  const url = `/databases/${database_cluster_id}/users${user_name}`;
+  const url = `/databases/${database_cluster_id}/users/${user_name}`;
   const body = {settings};
 
   return httpClient.post<IUpdateDatabaseClusterUserApiResponse>(url, body);
