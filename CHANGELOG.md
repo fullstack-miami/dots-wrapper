@@ -1,5 +1,37 @@
 # changelog
 
+## v1.1.0
+
+
+### 🚀 Enhancements
+
+- Expand knowledge base data source options ([dff9774](https://github.com/@fullstack-miami/dots-wrapper/commit/dff9774))
+- Expose enabled flag on GenAI key operations ([bc54f7c](https://github.com/@fullstack-miami/dots-wrapper/commit/bc54f7c))
+- **gen-ai:** Add disabled visibility ([90fe0ef](https://github.com/@fullstack-miami/dots-wrapper/commit/90fe0ef))
+
+### 🩹 Fixes
+
+- Update code examples with correct method chain. - Some had , but the correct method is . ([acb4dc6](https://github.com/@fullstack-miami/dots-wrapper/commit/acb4dc6))
+
+### 📖 Documentation
+
+- Mark agent version endpoints as experimental ([5664386](https://github.com/@fullstack-miami/dots-wrapper/commit/5664386))
+
+### 🏡 Chore
+
+- Initial setup ([a36fdbb](https://github.com/@fullstack-miami/dots-wrapper/commit/a36fdbb))
+
+### 🤖 CI
+
+- Bump version ([1c1d113](https://github.com/@fullstack-miami/dots-wrapper/commit/1c1d113))
+- Wip ([213799d](https://github.com/@fullstack-miami/dots-wrapper/commit/213799d))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+- Ahmed Elywa ([@AhmedElywa](https://github.com/AhmedElywa))
+- Cody Ogden ([@codyogden](https://github.com/codyogden))
+
 ## **2025-07-27** - new version 3.12.2
 
 * npm audit + update dependencies
