@@ -26,5 +26,5 @@ export const updateDatabaseClusterUser = ({
   const url = `/databases/${database_cluster_id}/users/${user_name}`;
   const body = {settings};
 
-  return httpClient.post<IUpdateDatabaseClusterUserApiResponse>(url, body);
+  return httpClient.put<IUpdateDatabaseClusterUserApiResponse>(url, body);
 };
