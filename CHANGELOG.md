@@ -1,5 +1,21 @@
 # changelog
 
+## v1.2.2
+
+[compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.2.1...v1.2.2)
+
+### 🩹 Fixes
+
+- Uses `PUT` ([603ef23](https://github.com/fullstack-miami/dots-wrapper/commit/603ef23))
+
+### 🏡 Chore
+
+- **release:** V1.2.1 ([4190c8f](https://github.com/fullstack-miami/dots-wrapper/commit/4190c8f))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+
 ## v1.2.1
 
 [compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.2.0...v1.2.1)
