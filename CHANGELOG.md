@@ -1,5 +1,21 @@
 # changelog
 
+## v1.2.1
+
+[compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.2.0...v1.2.1)
+
+### 🩹 Fixes
+
+- Typo ([a08ef4b](https://github.com/fullstack-miami/dots-wrapper/commit/a08ef4b))
+
+### 🏡 Chore
+
+- **release:** V1.2.0 ([cde90bf](https://github.com/fullstack-miami/dots-wrapper/commit/cde90bf))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+
 ## v1.2.0
 
 [compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.2...v1.2.0)
