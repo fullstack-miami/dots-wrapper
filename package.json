@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@fullstack-miami/dots-wrapper.git"
+    "url": "git+https://github.com/fullstack-miami/dots-wrapper.git"
   },
   "author": "Pedro J. Pimentel",
   "license": "MIT",
