@@ -5,6 +5,7 @@ describe('create-database-cluster-user', () => {
     database_cluster_id: require('crypto').randomBytes(2),
     user_name: require('crypto').randomBytes(2),
     mysql_settings: require('crypto').randomBytes(2),
+    settings: require('crypto').randomBytes(2),
   } as any;
   const default_output = require('crypto').randomBytes(2);
 
@@ -31,7 +32,8 @@ describe('create-database-cluster-user', () => {
 
     expect(httpClient.post).toHaveBeenCalledWith(`/databases/${default_input.database_cluster_id}/users`, {
       name: default_input.user_name,
-      mysql_settings: default_input.mysql_settings
+      mysql_settings: default_input.mysql_settings,
+      settings: default_input.settings
     });
   });
 

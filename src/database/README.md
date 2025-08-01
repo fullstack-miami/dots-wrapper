@@ -269,6 +269,22 @@ try {
 }
 ```
 
+## update-database-cluster-user
+[original documentation](https://developers.digitalocean.com/documentation/v2/#udpate-a-database-user)
+```javascript
+try {
+  const input = {
+    database_cluster_id: '', // string
+    user_name: '', // string
+    settings: {}, // object
+  };
+  const {data:{user}} = await dots.database.updateDatabaseClusterUser(input);
+  console.log(user);
+} catch (error) {
+  console.log(error);
+}
+```
+
 ## get-database-cluster-user
 [original documentation](https://developers.digitalocean.com/documentation/v2/#retrieve-an-existing-database-user)
 ```javascript

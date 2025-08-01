@@ -259,6 +259,7 @@ export const createApiClient = ({
       resizeDatabaseCluster: modules.database.resizeDatabaseCluster(context),
       restoreDatabaseClusterBackup: modules.database.restoreDatabaseClusterBackup(context),
       updateDatabaseClusterFirewallRules: modules.database.updateDatabaseClusterFirewallRules(context),
+      updateDatabaseClusterUser: modules.database.updateDatabaseClusterUser(context),
     });
     const project = Object.freeze({
       assignResourcesToDefaultProject: modules.project.assignResourcesToDefaultProject(context),

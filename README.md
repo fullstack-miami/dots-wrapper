@@ -141,6 +141,7 @@ js.js
     1. [resize-database-cluster](src/database/README.md#resize-database-cluster)
     1. [restore-database-cluster-backup](src/database/README.md#restore-database-cluster-backup)
     1. [update-database-cluster-firewall-rules](src/database/README.md#update-database-cluster-firewall-rules)
+    1. [update-database-cluster-user](src/database/README.md#update-database-cluster-user)
 1. [domain](src/domain/README.md#domain)
     1. [create-domain](src/domain/README.md#create-domain)
     1. [create-domain-record](src/domain/README.md#create-domain-record)

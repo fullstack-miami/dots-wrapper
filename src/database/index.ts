@@ -30,5 +30,6 @@ export * from './remove-database-cluster-user/remove-database-cluster-user';
 export * from './resize-database-cluster/resize-database-cluster';
 export * from './restore-database-cluster-backup/restore-database-cluster-backup';
 export * from './types';
+export * from './update-database-cluster-user/update-database-cluster-user';
 export * from './update-database-cluster-firewall-rules/update-database-cluster-firewall-rules';
 
