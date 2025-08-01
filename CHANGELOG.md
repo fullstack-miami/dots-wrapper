@@ -1,5 +1,17 @@
 # changelog
 
+## v1.1.1
+
+[compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.0...v1.1.1)
+
+### 🤖 CI
+
+- Updates ([07bfc24](https://github.com/fullstack-miami/dots-wrapper/commit/07bfc24))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+
 ## v1.1.0
 
 
