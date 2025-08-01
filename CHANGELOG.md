@@ -1,5 +1,21 @@
 # changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.2...v1.2.0)
+
+### 🚀 Enhancements
+
+- Adds updateDatabaseClusterUser method ([7e3814c](https://github.com/fullstack-miami/dots-wrapper/commit/7e3814c))
+
+### 🏡 Chore
+
+- **release:** V1.1.2 ([b51882a](https://github.com/fullstack-miami/dots-wrapper/commit/b51882a))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+
 ## v1.1.2
 
 [compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.1...v1.1.2)
