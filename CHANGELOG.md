@@ -1,5 +1,21 @@
 # changelog
 
+## v1.1.2
+
+[compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.1...v1.1.2)
+
+### 🩹 Fixes
+
+- Adds mongo_user_settings to createDatabaseClusterUser ([1f80562](https://github.com/fullstack-miami/dots-wrapper/commit/1f80562))
+
+### 🏡 Chore
+
+- **release:** V1.1.1 ([2ed024c](https://github.com/fullstack-miami/dots-wrapper/commit/2ed024c))
+
+### ❤️ Contributors
+
+- Navanjr ([@navanjr](https://github.com/navanjr))
+
 ## v1.1.1
 
 [compare changes](https://github.com/fullstack-miami/dots-wrapper/compare/v1.1.0...v1.1.1)
